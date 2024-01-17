@@ -54,14 +54,14 @@ const Hero = () => {
     gsap.to(characters, {
       scrollTrigger: {
         trigger: ".hero_section",
-        start: "top 100",
+        start: "top",
         end: "bottom top",
         scrub: true,
        
       },
       opacity: 0,
       rotate:90,
-      y: 600,
+      y: 400,
       color:"#fff", 
       stagger: {
         amount: 1, // Ajusta el valor según tu preferencia
@@ -80,7 +80,7 @@ const Hero = () => {
         <div>
           <h1
             id="title_h1"
-            className="text-5xl  sm:text-start sm:text-8xl h-screen font-bold text-[#546A7B]  "
+            className="text-4xl  sm:text-start sm:text-8xl h-screen font-bold text-[#546A7B]  "
           >
             Front-End <br className="" />
             <span className="">Developer</span>
