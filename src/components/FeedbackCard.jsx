@@ -20,7 +20,7 @@ const FeedbackCard = ({ content, contentSpanish, name, title, img, link }) => {
             <img
               src={img}
               alt={name}
-              className="sm:rounded-3xl w-[184px] sm:w-[226px] sm:h-[200px] object-cover"
+              className="sm:rounded-3xl w-[184px] sm:w-[226px] sm:h-[200px] object-cover shadow-2xl"
             />
             <div className="flex flex-col ml-4">
               <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white my-6">

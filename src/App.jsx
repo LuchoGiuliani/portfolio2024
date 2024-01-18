@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 const App = () => {
   return (
     <div className="bg-[#546A7B] overflow-hidden"> 
-    {/* <div className="grain"></div> */}
+    <div className="grain"></div>
 
       <LanguageProvider>
         <Navbar />
