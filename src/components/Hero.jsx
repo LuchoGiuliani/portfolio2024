@@ -80,7 +80,7 @@ const Hero = () => {
         <div>
           <h1
             id="title_h1"
-            className="text-4xl  sm:text-start sm:text-8xl h-screen font-bold text-[#546A7B]  "
+            className="text-5xl  sm:text-start sm:text-8xl h-screen font-bold text-[#546A7B]  "
           >
             Front-End <br className="" />
             <span className="">Developer</span>
@@ -107,7 +107,7 @@ const Hero = () => {
         <img
           src={perfil}
           alt="perfil"
-          className="max-w-[490px]   absolute right-0 bottom-0 hero_image2"
+          className="max-w-[490px] overflow-x-hidden  absolute sm:first-letter sm:right-0 bottom-0 hero_image2"
         />
       </div>
     </section>

@@ -53,7 +53,7 @@ useEffect(() => {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap  justify-center w-full feedback-container relative z-[1]">
+      <div className="grid grid-cols-2 sm:flex flex-wrap  justify-center w-full feedback-container relative z-[1]">
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}

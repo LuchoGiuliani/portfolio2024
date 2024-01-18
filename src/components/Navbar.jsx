@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </div>
       <nav className="z-[9999]">
-      <button className="text-white z-[9999]" onClick={toggleLanguage}><img className="p-1 max-w-[34px] z-[9999]" src={currentLanguage === "en" ? english : spanish } alt="" /></button>
+      <button className="text-white z-[9999] p-2" onClick={toggleLanguage}><img className="p-1 max-w-[34px] z-[9999]" src={currentLanguage === "en" ? english : spanish } alt="" /></button>
       
     </nav>
     </nav>
