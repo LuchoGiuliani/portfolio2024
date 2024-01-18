@@ -31,18 +31,18 @@ const SkillCard = ({ icon, title, content, index }) => {
 const Skills = () => {
   const {currentLanguage} = useLanguage()
   return (
-    <div className="z-[9999] flex  justify-center items-center ">
-      <section id="skills" className="flex  gap-6 justify-center  p-6 sm:h-screen z-[9999]">
-        <div className={`   flex flex-col gap-4`}>
+    <div className="z-[9999]     ">
+      <section id="skills" className="sm:flex justify-center     p-6 sm:h-screen z-[9999]">
+        <div className={`   flex flex-col gap-2`}>
           <h2 className={`   ${styles.heading2}`}>
             {currentLanguage === "en" ?  "Skills" : "Habilidades"}
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] `}>
+          <p className={`${styles.paragraph} sm:max-w-[470px] `}>
             {currentLanguage === "en" ? " As a front-end developer, I am always open to new ideas and willing to collaborate with my team members to find the best possible solution."
                                       : " Como desarrollador estoy siempre buscando nuevos desafios y nuevas herramientas para aprender y aplicar a los trabajos que fui desarrollando  "}
            
           </p>
-          <Button className="mt-10 z-[9999]" />
+          <Button className=" z-[9999]" />
         </div>
 
         <div className={` max-w-[460px]`}>
