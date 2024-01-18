@@ -107,7 +107,7 @@ const Hero = () => {
         <img
           src={perfil}
           alt="perfil"
-          className="max-w-[490px] overflow-x-hidden  absolute sm:first-letter sm:right-0 bottom-0 hero_image2"
+          className="max-w-[330px] sm:max-w-[490px] overflow-x-hidden  absolute right-0 bottom-0 hero_image2"
         />
       </div>
     </section>

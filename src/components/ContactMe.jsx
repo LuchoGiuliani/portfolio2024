@@ -7,7 +7,7 @@ const ContactMe = () => {
   const {currentLanguage} = useLanguage()
   return (
     <section
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} m-12 sm:flex-row flex-col bg-[#393D3F] rounded-[20px] box-shadow`}
+      className={`p-6 m-6 sm:flex-row flex-col bg-[#393D3F] rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>{currentLanguage === "en" ? "Connect with me" : "Contacto"}</h2>

@@ -44,7 +44,7 @@ const Stats = () =>  {
   return(
   
   <div className='stats_section' ref={app}>
-   <div className="absolute z-10 bottom-0 sm:left-10 left-4  max-w-[120px] arrow_down  p-3"><img src={arrowDown} alt="" /></div>
+   <div className="absolute z-10 bottom-0  sm:left-4  max-w-[120px] arrow_down  p-3"><img src={arrowDown} alt="" /></div>
   <section className="marquee">
    <div className='marquee_inner'>
    <div className="marquee_part">COLABORATION PROACTIVITY MODERN DESIGN TEAM WORK</div>
