@@ -37,8 +37,14 @@ import js from "./js.png";
 
 import english from "./english.png";
 import spanish from "./spanish.png";
+import github from "./github.png";
+import twitter from "./twitter.png";
+import starwars from "./starwars.svg";
 
 export {
+  starwars,
+  twitter,
+  github,
   dialogEN,
   dialogES,
   arrowDown,

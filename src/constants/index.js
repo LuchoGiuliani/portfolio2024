@@ -21,6 +21,9 @@ import {
   inmo,
   docker,
   newCachi,
+  github,
+  twitter,
+  starwars
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +169,15 @@ export const feedback = [
     img: newCachi,
     contentSpanish: "Rediseñando pagina para un portfolio",
   },
+  {
+    id: "project-12",
+    content: "StarWars red social",
+    name: "StarWars red social",
+    title: "Next JS - Docker - react Redux",
+    link: "https://github.com",
+    img: starwars,
+    contentSpanish: "StarWars red social curso DH",
+  },
 ];
 
 export const stats = [
@@ -299,13 +311,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: "",
+    icon: github,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: "",
-    link: "https://www.twitter.com/",
+    icon: twitter,
+    link: "https://twitter.com/lucianogiulia17",
   },
   {
     id: "social-media-4",
