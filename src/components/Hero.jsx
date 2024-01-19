@@ -18,15 +18,6 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    gsap.to(".hero_image", {
-      xPercent: 25,
-      delay: 3,
-      repeat: -1,
-      duration:4,
-      stagger:0.05,
-      yoyo:true,
-    
-    });
     gsap.to(".hero_image2", {
       scrollTrigger: {
         trigger: ".hero_section",
@@ -76,6 +67,7 @@ const Hero = () => {
 
   return (
     <section className="hero_section flex flex-col p-6  h-screen">
+         
       <div>
         <div>
           <h1
@@ -86,6 +78,7 @@ const Hero = () => {
             <span className="">Developer</span>
           </h1>
         </div>
+       
 
         <div className="absolute bottom-56 right-4 sm:bottom-[9rem] sm:right-[14rem] hero_image3">
           {currentLanguage === "en" ? (
@@ -110,6 +103,7 @@ const Hero = () => {
           className="max-w-[330px] sm:max-w-[490px] overflow-x-hidden  absolute right-0 bottom-0 hero_image2"
         />
       </div>
+      
     </section>
   );
 };

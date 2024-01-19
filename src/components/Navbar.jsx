@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { close, linkedin,logo, menu } from "../assets";
+import {  linkedin,logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import { useLanguage } from "../context/LanguageContext";
 import {spanish,english} from "../assets"

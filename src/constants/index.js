@@ -5,17 +5,12 @@ import {
   mysql,
   node,
   css,
-  css3,
   git,
-  angular,
   tailwind,
-  facebook,
   instagram,
   linkedin,
-  twitter,
   react,
   cachi,
-  rick,
   reyes,
   records,
   comidas,
@@ -24,9 +19,8 @@ import {
   css2,
   express,
   inmo,
-  calcu,
   docker,
-  newCachi
+  newCachi,
 } from "../assets";
 
 export const navLinks = [
@@ -40,10 +34,6 @@ export const navLinks = [
     title: "Skills",
     titleSpanish: "Habilidades",
   },
-  // {
-  //   id: "product",
-  //   title: "Product",
-  // },
   {
     id: "projects",
     title: "Projects",
@@ -66,14 +56,16 @@ export const skillsCard = [
     title: "TailwindCSS",
     content:
       "One of the things I appreciate most about TailwindCSS is its comprehensive set of pre-defined utility classes.",
-      contentSpanish: ""},
+    contentSpanish: "",
+  },
   {
     id: "feature-3",
     icon: css2,
     title: "GSAP",
     content:
       "Recently, I have been working with this tool, and it's amazing what we can do with it.",
-      contentSpanish: "" },
+    contentSpanish: "",
+  },
 ];
 
 export const feedback = [
@@ -85,7 +77,9 @@ export const feedback = [
     title: "React - Vite Js - Deployment - TailwindCSS",
     img: reyes,
     link: "https://artedereyes2024.netlify.app",
-    contentSpanish: "Arte de reyes, una página dedicada al arte, podes encontrar diversos trabajos, pintura, murales y comics."},
+    contentSpanish:
+      "Arte de reyes, una página dedicada al arte, podes encontrar diversos trabajos, pintura, murales y comics.",
+  },
   {
     id: "Project-2",
     content:
@@ -94,7 +88,9 @@ export const feedback = [
     title: "React - Canvas - Deployment - TailwindCSS",
     img: records,
     link: "https://vitorecordsarg.netlify.app/",
-    contentSpanish: "Productora musical. Equipada con lo último en tecnología, acompañando al artista a encontrar su camino musical"},
+    contentSpanish:
+      "Productora musical. Equipada con lo último en tecnología, acompañando al artista a encontrar su camino musical",
+  },
   {
     id: "Project-3",
     content:
@@ -103,16 +99,18 @@ export const feedback = [
     title: "React -  Vite Js -  GSAP -  TailwindCSS",
     img: cachi,
     link: "https://carlamgiuliani.netlify.app/",
-    contentSpanish: "Diseño audiovisual, creación de un porfolio para un cliente especial"},
+    contentSpanish:
+      "Diseño audiovisual, creación de un porfolio para un cliente especial",
+  },
   {
     id: "Project-4",
-    content:
-      "This is a new project using reactQuery Reduce and Typescript",
+    content: "This is a new project using reactQuery Reduce and Typescript",
     name: "Practica DH 2023",
     title: "React -  Vite Js -  reactQuery -  Typescript",
     img: hero,
     link: "https://practica-dh-mod1.netlify.app/",
-    contentSpanish: "Nuevo proyecto utilizando reactQuery Reduce y Typescript"},
+    contentSpanish: "Nuevo proyecto utilizando reactQuery Reduce y Typescript",
+  },
   {
     id: "Project-5",
     content:
@@ -120,7 +118,9 @@ export const feedback = [
     name: "Sanitarios Nicuesa",
     title: "React - Node - JavaScript - HTML - CSS - MySQL",
     img: sanitarios,
-    contentSpanish: "Primer trabajo grupal hecho con compañeros del instituto. Una experiencia muy gratificante haber trabajado en grupo y aprender a coordinar en equipo"},
+    contentSpanish:
+      "Primer trabajo grupal hecho con compañeros del instituto. Una experiencia muy gratificante haber trabajado en grupo y aprender a coordinar en equipo",
+  },
   {
     id: "project-6",
     content:
@@ -128,23 +128,25 @@ export const feedback = [
     name: "cHolu",
     title: "React - Vite Js - Deployment - TailwindCSS",
     img: comidas,
-    contentSpanish: "Aplicación para administrar restaurant"},
+    contentSpanish: "Aplicación para administrar restaurant",
+  },
   {
     id: "project-7",
-    content:
-      "This project has been oriented to be a real state market ",
+    content: "This project has been oriented to be a real state market ",
     name: "Inmo TakaWashi",
     title: "React - Vite Js - Deployment - TailwindCSS",
     img: inmo,
-    contentSpanish: "Proyecto orientado a el mercado inmobiliario"},
-  
+    contentSpanish: "Proyecto orientado a el mercado inmobiliario",
+  },
+
   {
     id: "project-9",
     content: "My first project using node, ejs, css and Github ",
     name: "ML Demo",
     title: "Js - Node",
     img: ml,
-    contentSpanish: "Primer trabajo usando EJS, CSS, node, JavaScript"},
+    contentSpanish: "Primer trabajo usando EJS, CSS, node, JavaScript",
+  },
   {
     id: "project-10",
     content: "Using fetching and filtering API ",
@@ -152,7 +154,9 @@ export const feedback = [
     title: "Js - Vite - GithubPages",
     link: "https://luchogiuliani.github.io/skinPlace/",
     img: skinPlace,
-    contentSpanish: "Usando fetching y filtrando una APi, subiendo informacion a GithubPages"},
+    contentSpanish:
+      "Usando fetching y filtrando una APi, subiendo informacion a GithubPages",
+  },
   {
     id: "project-11",
     content: "Portfolio Carla Audiovisual",
@@ -160,62 +164,63 @@ export const feedback = [
     title: "Js - Vite - GithubPages",
     link: "https://carlamgiuliani.netlify.app/",
     img: newCachi,
-    contentSpanish: "Rediseñando pagina para un portfolio"},
+    contentSpanish: "Rediseñando pagina para un portfolio",
+  },
 ];
 
 export const stats = [
   {
     id: "stats-1",
     title: "Proactive",
-    titleSpanish:"Proactividad",
+    titleSpanish: "Proactividad",
     value: "",
   },
   {
     id: "stats-2",
     title: "Creativity",
-    titleSpanish:"Creatividad",
+    titleSpanish: "Creatividad",
     value: "",
   },
   {
     id: "stats-3",
     title: "Collaboration",
-    titleSpanish:"Colaboración",
+    titleSpanish: "Colaboración",
     value: "",
   },
   {
     id: "stats-4",
     title: "TeamWork",
-    titleSpanish:"TeamWork",
+    titleSpanish: "TeamWork",
     value: "",
   },
   {
     id: "stats-5",
     title: "New Design",
-    titleSpanish:"Nuevos diseños",
+    titleSpanish: "Nuevos diseños",
     value: "",
   },
   {
     id: "stats-6",
     title: "Pasion",
-    titleSpanish:"Pasion",
+    titleSpanish: "Pasion",
     value: "",
   },
   {
     id: "stats-7",
     title: "Integral Work",
-    titleSpanish:"Trabajo integral",
+    titleSpanish: "Trabajo integral",
     value: "",
   },
   {
     id: "stats-8",
     title: "Production",
-    titleSpanish:"Producción",
+    titleSpanish: "Producción",
     value: "",
   },
   {
     id: "stats-9",
     title: "Contact me",
-    titleSpanish:"Hablemos",
+    titleSpanish: "Hablemos",
     value: "",
   },
 ];
@@ -294,12 +299,12 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: "",
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: "",
     link: "https://www.twitter.com/",
   },
   {

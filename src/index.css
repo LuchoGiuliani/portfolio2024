@@ -303,6 +303,7 @@ h1 {
 
   .hero_section {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 49% 100%, 0 54%);
+    
     background-color: #393D3F;
     
   }
@@ -383,3 +384,22 @@ h1 {
     z-index: 9000!important;
   }
   
+  html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }

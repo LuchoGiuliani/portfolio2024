@@ -31,8 +31,8 @@ const SkillCard = ({ icon, title, content, index }) => {
 const Skills = () => {
   const {currentLanguage} = useLanguage()
   return (
-    <div className="z-[9999]     ">
-      <section id="skills" className="sm:flex justify-center     p-6 sm:h-screen z-[9999]">
+    <div className="">
+      <section id="skills" className="sm:flex justify-center gap-6     p-6 sm:h-screen z-[9999]">
         <div className={`   flex flex-col gap-2`}>
           <h2 className={`   ${styles.heading2}`}>
             {currentLanguage === "en" ?  "Skills" : "Habilidades"}
