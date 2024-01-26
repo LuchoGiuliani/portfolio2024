@@ -18,7 +18,7 @@ const Hero = () => {
     gsap.to(".hero_image2", {
       scrollTrigger: {
         trigger: ".hero_section",
-        start: "top 200",
+        start: "top 250",
         end: "bottom top",
         scrub: true,
       },
