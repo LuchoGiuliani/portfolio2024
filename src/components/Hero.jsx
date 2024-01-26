@@ -22,7 +22,7 @@ const Hero = () => {
         end: "bottom top",
         scrub: true,
       },
-      yPercent: 100,
+      yPercent: 150,
     });
     gsap.to(".hero_image3", {
       scrollTrigger: {

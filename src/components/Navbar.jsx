@@ -21,7 +21,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal hover:scale-110 cursor-pointer text-[16px] ${
+            className={` font-normal hover:scale-110 cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? "mr-10" : "mr-10"
             }  text-[#ECE6E6]`}
           >
@@ -51,7 +51,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`className="hover:text-[#62929E] hover:line-through border-2 border-black bg-[#546A7B] p-1" ${
+                className={`hover:text-[#62929E] hover:line-through border-2 border-black bg-[#546A7B] p-1 text-[16px]" ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-0"
                 }  text-white`}
               >

@@ -30,15 +30,24 @@ const Stats = () =>  {
     repeat: -1,
     yoyo: true, // Utiliza yoyo para el bucle infinito y el efecto de rebote suave
     duration: 1,
-    ease: "linear",
-      
+    ease: "linear",   
     })
+
+    gsap.to('.arrow_down', {
+      scrollTrigger: {
+        trigger: '.stats_section',
+        start: 'top 600',
+        end: 'bottom center',     
+        scrub: true, // Para que el efecto se aplique suavemente durante el scroll
+      },
+      opacity: 0,
+    });
   } ,[])
 
   return(
 
   <div className='stats_section' ref={app}>
-   <div className="absolute z-10 bottom-0  sm:left-4  max-w-[120px] arrow_down  p-3">
+   <div className="absolute z-10 bottom-0  sm:left-4  max-w-[86px] arrow_down  p-3 hidden sm:block">
     <img src={arrowDown} alt="" />
    </div>
       <section className="stats">
