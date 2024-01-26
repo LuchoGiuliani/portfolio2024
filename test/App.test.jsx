@@ -12,7 +12,7 @@ describe("<App />", ()=> {
     test("should add item and remove item",()=> {
 
 
-        render(<LanguageContext.Provider value={{ currentLanguage, toggleLanguage }}> <App/>   </LanguageContext.Provider>) 
+        render( <App/> ) 
         
     })
 })

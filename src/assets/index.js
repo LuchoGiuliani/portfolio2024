@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 
 import skinPlace from "./skinplace.png";
-
+import close from "./add.png"
 import menu from "./menu.svg";
 
 import arrowDown from "./arrow-down.png";
@@ -23,6 +23,7 @@ import sanitarios from "./sanitarios-min.webp";
 import records from "./records-min.webp";
 import cachi from "./cachi-min.webp";
 import hero from "./hero.png";
+import portfolio2024 from "./portfolio2024.png";
 
 import react from "./react.png";
 import tailwind from "./tailwind.png";
@@ -42,6 +43,8 @@ import twitter from "./twitter.png";
 import starwars from "./starwars.svg";
 
 export {
+  close,
+  portfolio2024,
   starwars,
   twitter,
   github,

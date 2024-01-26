@@ -3,30 +3,7 @@ import { skillsCard, skills } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { useLanguage } from "../context/LanguageContext";
-const SkillCard = ({ icon, title, content, index }) => {
 
-  const {currentLanguage} = useLanguage()
-  return(
-  <div
-    className={`flex flex-row p-6 rounded-[20px]  ${
-      index !== skillsCard.length - 1 ? "mb-6" : "mb-0"
-    } feature-card `}
-  >
-    <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
-    >
-      <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
-    </div>
-    <div className="flex-1 flex flex-col ml-3 ">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
-        {title}
-      </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">
-        {content}
-      </p>
-    </div>
-  </div>
-);}
 
 const Skills = () => {
   const {currentLanguage} = useLanguage()
@@ -46,9 +23,6 @@ const Skills = () => {
         </div>
 
         <div className={` max-w-[460px]`}>
-          {/* {skillsCard.map((feature, index) => (
-            <SkillCard key={feature.id} {...feature} index={index} />
-          ))} */}
         <section className={` `}>
           <div className={`flex   flex-wrap  gap-1`}>
             {skills.map((skill) => (
@@ -66,9 +40,6 @@ const Skills = () => {
           </div>
         </section>
         </div>
-      </section>
-
-      <section>
       </section>
     </div>
   );

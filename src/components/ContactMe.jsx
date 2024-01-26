@@ -14,7 +14,6 @@ const ContactMe = () => {
         <p className={`${styles.paragraph} max-w-[470px] `}>
           {currentLanguage === "en" ? "I am always eager to take on new challenges and collaborate with like-minded professionals to create innovative and impactful solutions.":
           "No pierdas la oportunidad de contactarnos y conocernos, me interesan los nuevos desafios, el trabajo en equipo y las ideas innovadoras."}
-         
         </p>
       </div>
       <div className={`${styles.flexCenter}`}>

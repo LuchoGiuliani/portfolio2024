@@ -23,24 +23,26 @@ import {
   newCachi,
   github,
   twitter,
-  starwars
+  starwars,
+  portfolio2024,
+  close
 } from "../assets";
 
 export const navLinks = [
+  // {
+  //   id: "home",
+  //   title: "About Me",
+  //   titleSpanish: "Sobre mi",
+  // },
   {
-    id: "home",
-    title: "About Me",
-    titleSpanish: "Sobre mi",
+    id: "projects",
+    title: "Projects",
+    titleSpanish: "Proyectos",
   },
   {
     id: "skills",
     title: "Skills",
     titleSpanish: "Habilidades",
-  },
-  {
-    id: "projects",
-    title: "Projects",
-    titleSpanish: "Proyectos",
   },
 ];
 
@@ -108,7 +110,7 @@ export const feedback = [
   {
     id: "Project-4",
     content: "This is a new project using reactQuery Reduce and Typescript",
-    name: "Practica DH 2023",
+    name: "Practica DH",
     title: "React -  Vite Js -  reactQuery -  Typescript",
     img: hero,
     link: "https://practica-dh-mod1.netlify.app/",
@@ -121,6 +123,7 @@ export const feedback = [
     name: "Sanitarios Nicuesa",
     title: "React - Node - JavaScript - HTML - CSS - MySQL",
     img: sanitarios,
+    link: "https://github.com/LuchoGiuliani/proyecto-sanitariosnicuesa",
     contentSpanish:
       "Primer trabajo grupal hecho con compañeros del instituto. Una experiencia muy gratificante haber trabajado en grupo y aprender a coordinar en equipo",
   },
@@ -130,6 +133,7 @@ export const feedback = [
       "Home-cooked meals made with love for the past 25 years, offering a different menu every day. ",
     name: "cHolu",
     title: "React - Vite Js - Deployment - TailwindCSS",
+    link: "https://github.com/LuchoGiuliani/cholu",
     img: comidas,
     contentSpanish: "Aplicación para administrar restaurant",
   },
@@ -147,6 +151,7 @@ export const feedback = [
     content: "My first project using node, ejs, css and Github ",
     name: "ML Demo",
     title: "Js - Node",
+    link: "https://github.com/LuchoGiuliani/MercadoLiebre-proyect",
     img: ml,
     contentSpanish: "Primer trabajo usando EJS, CSS, node, JavaScript",
   },
@@ -174,9 +179,18 @@ export const feedback = [
     content: "StarWars red social",
     name: "StarWars red social",
     title: "Next JS - Docker - react Redux",
-    link: "https://github.com",
+    link: "https://github.com/LuchoGiuliani/app-demo",
     img: starwars,
     contentSpanish: "StarWars red social curso DH",
+  },
+  {
+    id: "project-14",
+    content: "My Portfolio 2024",
+    name: "Portfolio 2024",
+    title: "React - Gsap - lenis - Tailwind",
+    link: "https://lucianogiuliani2024.netlify.app/",
+    img: portfolio2024,
+    contentSpanish: "Mi portfolio 2024",
   },
 ];
 
@@ -307,12 +321,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/luchogiuliani/",
   },
   {
     id: "social-media-2",
     icon: github,
-    link: "https://www.facebook.com/",
+    link: "https://github.com/LuchoGiuliani/",
   },
   {
     id: "social-media-3",
@@ -322,7 +336,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/luciano-giuliani/",
   },
 ];
 

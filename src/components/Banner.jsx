@@ -29,6 +29,13 @@ function Banner() {
     xPercent:40,// Evita que la animación se aplique de inmediato
   });
 
+  gsap.to(".banner .banner2", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 8,
+    ease: "linear",
+  }).totalProgress(0.5)
+
   // Devuelve una función de limpieza para detener la animación al desmontar el componente
 
   }, []);
@@ -41,7 +48,7 @@ function Banner() {
         REACT  TAILWINDCSS GITHUB  WORDPRESS
       </p>
       <p className="banner2 text-white overflow-hidden  ">
-        <span className="text-blue-500"> WE LOVE CODE</span> YOU LIKE CODE{" "}
+        <span className="text-blue-500"> WE LOVE CODE</span> YOU LIKE CODE{" "} WE LOVE CODE I LOVE
         <span className="text-blue-500"> YOU LIKE CODE</span> WE LOVE CODE I LOVE
         CODE
       </p>
