@@ -10,9 +10,8 @@ import { LanguageContext, LanguageProvider } from "../src/context/LanguageContex
 
 describe("<App />", ()=> {
     test("should add item and remove item",()=> {
-
-
-        render( <App/> ) 
         
+        render( <App/> ) 
+      
     })
 })

@@ -18,7 +18,7 @@
 
 * {
   scroll-behavior: smooth;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .cont {
@@ -310,7 +310,7 @@ h1 {
   }
 
   .hero_section {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 49% 100%, 0 54%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 64% 100%, 0 64%);
     background-color: #393D3F;    
   }
 
@@ -418,4 +418,8 @@ h1 {
   
   .lenis.lenis-scrolling iframe {
     pointer-events: none;
+  }
+
+  .title_hero{
+
   }

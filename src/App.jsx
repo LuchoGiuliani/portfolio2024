@@ -45,9 +45,10 @@ const App = () => {
     <div className="grain"></div>
      
       <LanguageProvider>
+      <Stats />
         <Navbar />
         <Hero />
-        <Stats />
+      
         <Projects />
         <Banner />
         <Skills />
