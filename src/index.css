@@ -380,3 +380,13 @@ h1 {
     color: black;
   }
 
+
+  @media (max-height:515px) {
+    .title_hero {
+      display: none;
+
+    }
+    .hero_image3 {
+      display: none;
+    }
+  }
