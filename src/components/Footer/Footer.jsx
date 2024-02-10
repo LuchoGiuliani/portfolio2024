@@ -4,17 +4,17 @@ import {socialMedia} from '../../constants'
 
 import styles from "./footer.module.css"
 const Footer = () => (
-  <section className= "flex-col">
+  <section className= "flex-col mb-4">
     <div className={` md:flex-row flex-col mb-8 w-full`}>
-      <div className='flex-1 flex  justify-start mr-10'>
+      <div className='flex-1 flex  justify-start '>
         <a className='z-[9999]' href="#">
-        <img src={logo} alt="hoobank" className='w-[266px] h-[72px] object-contain' />
+        <img src={logo} alt="logo" className='w-[266px] h-[72px] object-contain' />
         </a>
         <p className={` mt-4 max-w-[310px]`}></p>
       </div>
     </div>
 
-    <div className='w-full flex justify-around items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
+    <div className='w-full flex justify-around items-center md:flex-row flex-col pt-6 '>
       <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>
       Copyright 2024 Luciano Giuliani. All Rights Reserved.               
       </p>

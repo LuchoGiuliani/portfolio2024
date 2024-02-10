@@ -6,5 +6,6 @@
     background-color: gray !important ;
     font-size: bold;
     letter-spacing: -0.3px;
+    z-index: 9999;
     
 }
