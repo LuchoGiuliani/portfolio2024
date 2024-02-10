@@ -25,7 +25,9 @@ import {
   twitter,
   starwars,
   portfolio2024,
-  close
+  close,
+  nextjs,
+  typescript
 } from "../assets";
 
 export const navLinks = [
@@ -73,7 +75,7 @@ export const skillsCard = [
   },
 ];
 
-export const feedback = [
+export const projects = [
   {
     id: "Project-1",
     content:
@@ -312,6 +314,18 @@ export const skills = [
   },
   {
     id: "10",
+    logo: docker,
+  },
+  {
+    id: "11",
+    logo: typescript,
+  },
+  {
+    id: "12",
+    logo: nextjs,
+  },
+  {
+    id: "13",
     logo: docker,
   },
 ];

@@ -1,11 +1,11 @@
-import Navbar from "./Navbar";
-import Skills from "./Skills";
-import ContactMe from "./ContactMe";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Projects from "./Projects";
-import Hero from "./Hero";
-import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
+import Skills from "./Skills/Skills";
+import ContactMe from "./ContactMe/ContactMe";
+import Stats from "./Stats/Stats";
+import Footer from "./Footer/Footer";
+import Projects from "./Projects/Projects";
+import Hero from "./Hero/Hero";
+import Banner from "./Banner/Banner";
 
 export {
   Navbar,

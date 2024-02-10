@@ -1,14 +1,27 @@
-import React, { useEffect } from "react";
-import { feedback } from "../constants";
-import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
-import { useLanguage } from "../context/LanguageContext";
+import React, { useEffect,useState } from "react";
+import { projects } from "../../constants";
+
+import ProjectsCard from "../ProjectsCard/ProjectsCard";
+import { useLanguage } from "../../context/LanguageContext";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import {motion} from "framer-motion"
+
+
+
+import styles from "./projects.module.css"
+import useMousePosition from "../../utils/useMousePosition";
+
 
 gsap.registerPlugin(ScrollTrigger)
 
 const Projects = () => {
+
+  const {x,y} = useMousePosition()
+
+
+
+
 
 const {currentLanguage} = useLanguage();
 useEffect(() => {
@@ -36,26 +49,33 @@ useEffect(() => {
   return (
     <section
       id="projects"
-      className={`z-[9999] testimonial-section ${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+      className="z-[9999] relative"
     >
+      <motion.div 
+      className={styles.mask}
+      animate={{WebkitMaskPosition:`${x}px ${y}px `}}
+      transition={{ type: "tween", ease: "backOut"}}
+      />
+
+    
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient">
         {" "}
       </div>
-      <div className="w-full flex items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1] px-16">
-        <h1 className={styles.heading2}>
-        {currentLanguage === "en" ? "Project i build" : "Proyectos"}
+      <div className="flex items-center justify-between gap-6 md:flex-row flex-col py-12 relative z-[1] px-16">
+        <h1 className="text-white text-3xl tracking-wide">
+        {currentLanguage === "en" ? "PROJECTS I BUILD" : "PROYECTOS"}
         </h1>
-        <div className="w-full md:mt-0 mt-6">
-          <p className={`${styles.paragraph} text-left `}>
+        <div className="w-full md:mt-0 mt-6 max-w-[420px]">
+          <p className="text-right text-white text-2xl">
             {currentLanguage === "en"
               ? "I was able to learn how to work in a team, solve problems, search for documentation, build an application from scratch, implement a database, and other things that will be reflected in my work."
               : "Gracias a estos proyectos aprendí como trabajar en equipo, arrancar un proyecto desde cero, implementar una base de datos y darle estilo a una aplicación"}
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 sm:flex flex-wrap  justify-center w-full feedback-container relative z-[1]">
-        {feedback.map((card) => (
-          <FeedbackCard key={card.id} {...card} />
+      <div className="grid grid-cols-2 sm:flex flex-wrap  justify-between w-full relative z-[1] pb-12">
+        {projects.map((card) => (
+          <ProjectsCard key={card.id} {...card} />
         ))}
       </div>
     </section>

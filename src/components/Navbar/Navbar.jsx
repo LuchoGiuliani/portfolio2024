@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import { menu } from "../assets";
-import { navLinks } from "../constants";
-import { useLanguage } from "../context/LanguageContext";
-import { spanish, english } from "../assets";
-import { logo,close } from "../assets";
+import { menu } from "../../assets";
+import { navLinks } from "../../constants";
+import { useLanguage } from "../../context/LanguageContext";
+import { spanish, english } from "../../assets";
+import { logo,close } from "../../assets";
 
+import styles from "./navbar.module.css"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,9 +14,9 @@ const Navbar = () => {
   const { currentLanguage, toggleLanguage } = useLanguage();
 
   return (
-    <nav className=" flex p-6 bg-[#393D3F]">
+    <nav className=" flex px-6 py-4 bg-[#393D3F] max-h-[126px]">
     <a className='z-[9999]' href="#">
-        <img src={logo} alt="hoobank" className='max-w-[266px] h-[72px] object-contain' />
+        <img src={logo} alt="logo" className='max-w-[266px] max-h-[74px] object-contain' />
         </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[9999]">
         {navLinks.map((nav, index) => (

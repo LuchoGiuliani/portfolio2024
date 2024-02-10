@@ -1,15 +1,16 @@
 import React from 'react'
-import styles from '../style'
-import {logo} from '../assets'
-import {socialMedia} from '../constants'
+import {logo} from '../../assets'
+import {socialMedia} from '../../constants'
+
+import styles from "./footer.module.css"
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+  <section className= "flex-col">
+    <div className={` md:flex-row flex-col mb-8 w-full`}>
       <div className='flex-1 flex  justify-start mr-10'>
         <a className='z-[9999]' href="#">
         <img src={logo} alt="hoobank" className='w-[266px] h-[72px] object-contain' />
         </a>
-        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}></p>
+        <p className={` mt-4 max-w-[310px]`}></p>
       </div>
     </div>
 

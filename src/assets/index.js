@@ -15,6 +15,8 @@ import dialogEN from "./dialogEN.png";
 import dialogES from "./dialogES.png";
 
 import perfil from "./perfil2024.png";
+import nextjs from "./next-js.webp"
+import typescript from "./typescript.png"
 
 import inmo from "./video2.png";
 import reyes from "./reyes-min.webp";
@@ -24,7 +26,7 @@ import records from "./records-min.webp";
 import cachi from "./cachi-min.webp";
 import hero from "./hero.png";
 import portfolio2024 from "./portfolio2024.png";
-
+import mask from "./mask.svg"
 import react from "./react.png";
 import tailwind from "./tailwind.png";
 import git from "./git.png";
@@ -43,6 +45,9 @@ import twitter from "./twitter.png";
 import starwars from "./starwars.svg";
 
 export {
+  typescript,
+  nextjs,
+  mask,
   close,
   portfolio2024,
   starwars,

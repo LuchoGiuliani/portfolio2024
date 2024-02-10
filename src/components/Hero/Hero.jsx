@@ -1,10 +1,12 @@
 import { useEffect } from "react";
-import { perfil, dialogEN, dialogES } from "../assets";
+import { perfil, dialogEN, dialogES } from "../../assets";
 import SplitType from "split-type";
 import { gsap } from "gsap";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../../context/LanguageContext";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
+
+import styles from "./hero.module.css"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -135,7 +137,7 @@ const Hero = () => {
         <div>
           <h1
             id="title_h1"
-            className="text-5xl  sm:text-start  sm:text-8xl h-screen tracking-wide title_hero  text-[#546A7B]"
+            className="text-5xl  sm:text-start  sm:text-8xl sm:h-screen tracking-wide title_hero hidden mt-4 md:mt-0 md:block  text-[#546A7B]"
           >
             DESIGNER.
           </h1>
@@ -143,7 +145,7 @@ const Hero = () => {
         <div>
           <h1
             id="title2_hero"
-            className="text-5xl  sm:text-start  sm:text-8xl h-screen tracking-wide title2_hero opacity-0   text-[#f9f9fa] absolute  top-32 z-50 "
+            className="text-5xl mt-6 sm:text-start lg:text-8xl md:text-7xl  sm:text-6xl h-screen tracking-wide title2_hero opacity-0   text-[#f9f9fa] absolute  top-32 z-50 "
           >
             Freelance Web Developer
           </h1>
@@ -153,9 +155,9 @@ const Hero = () => {
            animate={{ opacity: 1, scale: 1 }}
            transition={{delay:4, duration: 4.5 }}
         >
-          <div className="absolute bottom-56 right-4 sm:bottom-[9rem] sm:right-[14rem] hero_image3 hidden sm:block ">
+          <div className="absolute bottom-56 right-4 sm:bottom-[9rem] sm:right-[14rem] hero_image3   lg:block ">
             {currentLanguage === "en" ? (
-              <img src={dialogEN} className="min-w-[290px] px-8 " />
+              <img src={dialogEN} className="w-[400px] md:w-[440px] sm:w-[400px] px-8 " />
             ) : (
               <img src={dialogES} />
             )}
