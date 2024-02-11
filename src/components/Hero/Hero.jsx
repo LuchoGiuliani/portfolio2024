@@ -42,75 +42,23 @@ const Hero = () => {
       duration: 0.4,
     });
   }, []);
+  const text2 = new SplitType("#title2_hero");
+  console.log(text2);
 
   useEffect(() => {
-    // const text = new SplitType("#title_h1");
-    // const text2 = new SplitType("#title2_hero");
-    // const characters = document.querySelectorAll(".char");
-
-    // const title2 = document.querySelector("#title2_hero");
-    // const chars = title2.querySelectorAll(".char");
-
-    // gsap.to(title2, {
-    //   opacity: 1,
-    //   delay: 4, // Aplicar un retraso progresivo para cada elemento
-    //   duration: 3,
-    // });
-
-    // gsap.to(characters[0], {
-    //   yPercent: 370,
-    //   delay: 0.4,
-    //   duration: 1.2,
+    const text = new SplitType("#title_h1");
+    const staggerDuration = 0.4;
+    const animationDuration = 1.2;
+    const characters = document.querySelectorAll(".char");
+    
+ 
+    // gsap.to(characters, {
+    //   opacity:0, 
+    //   duration: animationDuration,
     //   ease: "bounce.out",
+    //   stagger: staggerDuration,
     // });
-    // gsap.to(characters[1], {
-    //   yPercent: 380,
-    //   delay: 0.8,
-    //   duration: 1.4,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[2], {
-    //   yPercent: 390,
-    //   delay: 1.2,
-    //   duration: 1.2,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[3], {
-    //   yPercent: 400,
-    //   delay: 1.6,
-    //   duration: 1.4,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[4], {
-    //   yPercent: 410,
-    //   delay: 2,
-    //   duration: 1.2,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[5], {
-    //   yPercent: 420,
-    //   delay: 2.4,
-    //   duration: 1.4,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[6], {
-    //   yPercent: 430,
-    //   delay: 2.8,
-    //   duration: 1.2,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[7], {
-    //   yPercent: 440,
-    //   delay: 3.2,
-    //   duration: 1.4,
-    //   ease: "bounce.out",
-    // });
-    // gsap.to(characters[8], {
-    //   yPercent: 450,
-    //   delay: 3.6,
-    //   duration: 1.2,
-    //   ease: "bounce.out",
-    // });
+  
 
     // gsap.to(characters, {
     //   scrollTrigger: {
@@ -133,14 +81,19 @@ const Hero = () => {
 
   return (
     <section className="hero_section flex flex-col px-6 pt-6  h-screen">
-      <div>
-        <h1 className="text-white font-normal font-sans tracking-tight text-8xl text-center p-2">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1.5 }}>
+        <h1 id="title_h1" className="text-white font-thin font-sans tracking-tight text-6xl md:text-6xl lg:text-8xl text-center mb-2 ">
           LUCIANO GIULIANI
         </h1>
-        <h1 className="text-white font-thin font-sans tracking-tight text-6xl absolute left-0 bottom-0 p-6">
+        </motion.div>
+      <div  className="">
+        <h1 className="text-white font-thin font-sans tracking-tight  text-2xl lg:text-6xl absolute left-0 bottom-50 sm:bottom-0 p-6">
           WEB <br /> DEVELOPER
         </h1>
-        <h1 className="text-white font-thin font-sans tracking-tight text-6xl absolute right-0 bottom-0 p-6">
+        <h1 className="text-white font-thin font-sans tracking-tight  text-2xl lg:text-6xl absolute right-[-10px] sm:right-0 bottom-20 sm:bottom-0 p-6">
           DESIGNER
         </h1>
         {/* <div>
@@ -177,7 +130,7 @@ const Hero = () => {
         <img
           src={perfil}
           alt="perfil"
-          className="object-cover h-[620px] w-[620px] hero_image2 absolute  bottom-40"
+          className="object-cover  h-[380px] w-[380px] lg:h-[580px] lg:w-[580px] hero_image2 absolute  bottom-32"
         />
       </div>
     </section>
