@@ -132,8 +132,17 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="hero_section flex flex-col p-6  h-screen">
+    <section className="hero_section flex flex-col px-6 pt-6  h-screen">
       <div>
+        <h1 className="text-white font-normal font-sans tracking-tight text-8xl text-center p-2">
+          LUCIANO GIULIANI
+        </h1>
+        <h1 className="text-white font-thin font-sans tracking-tight text-6xl absolute left-0 bottom-0 p-6">
+          WEB <br /> DEVELOPER
+        </h1>
+        <h1 className="text-white font-thin font-sans tracking-tight text-6xl absolute right-0 bottom-0 p-6">
+          DESIGNER
+        </h1>
         {/* <div>
           <h1
             id="title_h1"
