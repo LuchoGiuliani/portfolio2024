@@ -10,6 +10,7 @@ import {
   instagram,
   linkedin,
   react,
+  figma,
   cachi,
   reyes,
   records,
@@ -31,11 +32,7 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  // {
-  //   id: "home",
-  //   title: "About Me",
-  //   titleSpanish: "Sobre mi",
-  // },
+ 
   {
     id: "projects",
     title: "Projects",
@@ -48,32 +45,7 @@ export const navLinks = [
   },
 ];
 
-export const skillsCard = [
-  {
-    id: "feature-1",
-    icon: react,
-    title: "React",
-    content:
-      " I have honed my skills in creating reusable components, organizing my codebase effectively, and utilizing React hooks such as useState to manage component state.",
-    contentSpanish: "",
-  },
-  {
-    id: "feature-2",
-    icon: tailwind,
-    title: "TailwindCSS",
-    content:
-      "One of the things I appreciate most about TailwindCSS is its comprehensive set of pre-defined utility classes.",
-    contentSpanish: "",
-  },
-  {
-    id: "feature-3",
-    icon: css2,
-    title: "GSAP",
-    content:
-      "Recently, I have been working with this tool, and it's amazing what we can do with it.",
-    contentSpanish: "",
-  },
-];
+
 
 export const projects = [
   {
@@ -135,7 +107,7 @@ export const projects = [
       "Home-cooked meals made with love for the past 25 years, offering a different menu every day. ",
     name: "cHolu",
     title: "React - Vite Js - Deployment - TailwindCSS",
-    link: "https://github.com/LuchoGiuliani/cholu",
+    link: "https://comidasliliana2024.vercel.app/",
     img: comidas,
     contentSpanish: "Aplicación para administrar restaurant",
   },
@@ -195,65 +167,6 @@ export const projects = [
     contentSpanish: "Mi portfolio 2024",
   },
 ];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Proactive",
-    titleSpanish: "Proactividad",
-    value: "",
-  },
-  {
-    id: "stats-2",
-    title: "Creativity",
-    titleSpanish: "Creatividad",
-    value: "",
-  },
-  {
-    id: "stats-3",
-    title: "Collaboration",
-    titleSpanish: "Colaboración",
-    value: "",
-  },
-  {
-    id: "stats-4",
-    title: "TeamWork",
-    titleSpanish: "TeamWork",
-    value: "",
-  },
-  {
-    id: "stats-5",
-    title: "New Design",
-    titleSpanish: "Nuevos diseños",
-    value: "",
-  },
-  {
-    id: "stats-6",
-    title: "Pasion",
-    titleSpanish: "Pasion",
-    value: "",
-  },
-  {
-    id: "stats-7",
-    title: "Integral Work",
-    titleSpanish: "Trabajo integral",
-    value: "",
-  },
-  {
-    id: "stats-8",
-    title: "Production",
-    titleSpanish: "Producción",
-    value: "",
-  },
-  {
-    id: "stats-9",
-    title: "Contact me",
-    titleSpanish: "Hablemos",
-    value: "",
-  },
-];
-
-
 
 export const socialMedia = [
   {
@@ -326,6 +239,6 @@ export const skills = [
   },
   {
     id: "13",
-    logo: docker,
+    logo: figma,
   },
 ];

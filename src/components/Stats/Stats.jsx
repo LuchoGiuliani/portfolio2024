@@ -49,9 +49,6 @@ const Stats = () =>  {
   return(
 
   <div className='stats_section' ref={app}>
-   {/* <div className="absolute z-10 bottom-0  sm:left-4  max-w-[86px] arrow_down  hidden sm:block">
-    <img src={arrowDown} alt="" />
-   </div> */}
       <section className="stats_ text-white">
         <div className='stats_inner'>
           <div id='text_stats' className="stats_part">COLABORATION PROACTIVITY MODERN DESIGN TEAM WORK</div>

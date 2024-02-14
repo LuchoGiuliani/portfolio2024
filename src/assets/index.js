@@ -43,9 +43,11 @@ import spanish from "./spanish.png";
 import github from "./github.png";
 import twitter from "./twitter.png";
 import starwars from "./starwars.svg";
+import figma from "./figma.png"
 
 export {
   typescript,
+  figma,
   nextjs,
   mask,
   close,

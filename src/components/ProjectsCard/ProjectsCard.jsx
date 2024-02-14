@@ -12,7 +12,7 @@ const ProjectsCard = ({ content, contentSpanish, name, title, img, link }) => {
 
   const showContentP =
     windowWidth >= 760 ? (
-      <p className="font-medium text-[18px] leading-[32px] text-white my-2 hidden sm:flex">
+      <p className="font-medium text-[18px] text-center leading-[32px] text-white my-2 hidden sm:flex">
         {currentLanguage === "en" ? content : contentSpanish}
       </p>
     ) : null;
@@ -27,12 +27,12 @@ const ProjectsCard = ({ content, contentSpanish, name, title, img, link }) => {
               alt={name}
               className="sm:rounded-3xl w-[184px] h-[184px] sm:w-[226px] sm:h-[200px] object-cover shadow-2xl rounded-lg"
             />
-            <div className="flex flex-col ml-4 items-center">
-              <h4 className=" font-semibold text-[20px] leading-[32px] text-white my-6">
+            <div className="flex flex-col  items-center">
+              <h4 className=" font-semibold text-[20px] leading-[32px] text-white my-6 text-center">
                 {name}
               </h4>
               {showContentP}
-              <p className=" font-normal text-[16px] leading-[24px] text-dimWhite ">
+              <p className=" font-normal text-[16px] leading-[24px] text-gray-200 text-center ">
                 {title}
               </p>
             </div>

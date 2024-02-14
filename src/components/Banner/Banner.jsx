@@ -26,7 +26,7 @@ function Banner() {
         duration: 1,
         ease: "ease",
         immediateRender: false,
-        xPercent: 40, // Evita que la animación se aplique de inmediato
+        xPercent: 40, 
       });
 
     gsap
@@ -38,7 +38,6 @@ function Banner() {
       })
       .totalProgress(0.5);
 
-    // Devuelve una función de limpieza para detener la animación al desmontar el componente
   }, []);
 
   return (
