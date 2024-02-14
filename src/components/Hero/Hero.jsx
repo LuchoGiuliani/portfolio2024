@@ -31,7 +31,7 @@ const Hero = () => {
       >
         <h1
           id="title_h1"
-          className={`${styles.title_name} text-white font-thin font-sans tracking-tight text-6xl md:text-6xl lg:text-8xl text-center  `}
+          className={`${styles.title_name}  text-white font-thin font-sans tracking-tight text-6xl md:text-6xl lg:text-8xl text-center  `}
         >
           LUCIANO GIULIANI
         </h1>
