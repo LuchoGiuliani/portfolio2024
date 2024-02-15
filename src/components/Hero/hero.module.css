@@ -3,3 +3,11 @@
       font-size: 72px!important;
     }
   }
+
+  @media (max-width: 960px){
+    .title_developer {
+      bottom:0!important;
+    }
+  }
+
+  

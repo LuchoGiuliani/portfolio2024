@@ -10,8 +10,8 @@ const Skills = () => {
   const {currentLanguage} = useLanguage()
   return (
     <div className="">
-      <section id="skills" className="sm:flex justify-center flex-col items-center gap-6  p-6  z-[9999]">
-        <div className=" items-center  flex flex-col gap-6">
+      <section id="skills" className="sm:flex justify-center flex-col items-center gap-8  p-6  z-[9999]">
+        <div className=" items-center  flex flex-col gap-8">
           <h2 className="text-white text-3xl">
             {currentLanguage === "en" ?  "Skills" : "Habilidades"}
           </h2>

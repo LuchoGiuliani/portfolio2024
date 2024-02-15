@@ -29,15 +29,6 @@ function Banner() {
         xPercent: 40, 
       });
 
-    gsap
-      .to(".banner .banner2", {
-        xPercent: -100,
-        repeat: -1,
-        duration: 8,
-        ease: "linear",
-      })
-      .totalProgress(0.5);
-
   }, []);
 
   return (

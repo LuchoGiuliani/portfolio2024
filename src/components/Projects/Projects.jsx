@@ -10,14 +10,14 @@ import {motion} from "framer-motion"
 
 
 import styles from "./projects.module.css"
-import useMousePosition from "../../utils/useMousePosition";
+
 
 
 gsap.registerPlugin(ScrollTrigger)
 
 const Projects = () => {
 
-  const {x,y} = useMousePosition()
+ 
 
 
 
@@ -51,12 +51,6 @@ useEffect(() => {
       id="projects"
       className="z-[9999] relative"
     >
-      <motion.div 
-      className={styles.mask}
-      animate={{WebkitMaskPosition:`${x}px ${y}px `}}
-      transition={{ type: "tween", ease: "backOut"}}
-      />
-
     
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient">
         {" "}

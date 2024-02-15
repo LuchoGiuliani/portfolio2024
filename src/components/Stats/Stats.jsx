@@ -26,25 +26,7 @@ const Stats = () =>  {
     },
     { scope: app }
   );
-  useEffect(()=> {
-    gsap.to(".arrow_down", {
-      scale: "1.2",
-    repeat: -1,
-    yoyo: true, // Utiliza yoyo para el bucle infinito y el efecto de rebote suave
-    duration: 1,
-    ease: "linear",   
-    })
-
-    gsap.to('.arrow_down', {
-      scrollTrigger: {
-        trigger: '.stats_section',
-        start: 'top 600',
-        end: 'bottom center',     
-        scrub: true, // Para que el efecto se aplique suavemente durante el scroll
-      },
-      opacity: 0,
-    });
-  } ,[])
+  
 
   return(
 
