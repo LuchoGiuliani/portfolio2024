@@ -83,10 +83,10 @@ const Hero = () => {
         </h1>
       </motion.div>
       <div className="">
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute left-0 bottom-50 sm:bottom-0 p-6">
+        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute left-0 bottom-50 sm:bottom-0 p-2 mt-12 sm:mt-0">
           WEB <br /> DEVELOPER
         </h1>
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute right-[-10px] sm:right-0 bottom-46 sm:bottom-0 p-6">
+        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute right-[10px] sm:right-0 bottom-46 sm:bottom-0 p-2 mt-14 sm:mt-0">
           DESIGNER
         </h1>
       </div>
