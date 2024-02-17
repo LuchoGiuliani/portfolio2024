@@ -55,7 +55,7 @@ useEffect(() => {
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient">
         {" "}
       </div>
-      <div className="flex items-center justify-between gap-6 md:flex-row flex-col py-12 relative z-[1] px-16">
+      <div className="flex items-center justify-evenly gap-6 md:flex-row flex-col py-12 relative z-[1] px-16">
         <h1 className="text-white text-3xl tracking-wide">
         {currentLanguage === "en" ? "PROJECTS I BUILD" : "PROYECTOS"}
         </h1>
@@ -67,7 +67,7 @@ useEffect(() => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 sm:flex flex-wrap  justify-between w-full relative z-[1] pb-12">
+      <div className="grid grid-cols-2 sm:flex flex-wrap  justify-evenly w-full relative z-[1] pb-12">
         {projects.map((card) => (
           <ProjectsCard key={card.id} {...card} />
         ))}

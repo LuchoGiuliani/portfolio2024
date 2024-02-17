@@ -18,7 +18,7 @@ const ProjectsCard = ({ content, contentSpanish, name, title, img, link }) => {
     ) : null;
 
   return (
-    <div className="flex justify-between flex-col mb-10 px-4 py-2 max-w-[356px] md:mr-10 sm:mr-5 mr-0 my-5 rounded-lg ">
+    <div className="flex justify-evenly flex-col mb-10 px-4 py-2 max-w-[356px] md:mr-10 sm:mr-5 mr-0 my-5 rounded-lg ">
       <Tilt>
         <a href={link} target="_blank">
           <div className="flex flex-col items-center ">

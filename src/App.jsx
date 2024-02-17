@@ -33,11 +33,11 @@ const App = () => {
   return (
     <ReactLenis root>
       <div className="bg-[#546A7B] overflow-hidden ">
-        {/* <div className="grain"></div> */}
         <LanguageProvider>
           <Stats />
           <Navbar />
           <Hero />
+        {/* <div className="grain"></div> */}
           <Projects />
           <Banner />
           <Skills />

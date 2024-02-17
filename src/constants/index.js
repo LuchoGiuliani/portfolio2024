@@ -159,12 +159,12 @@ export const projects = [
   },
   {
     id: "project-14",
-    content: "My Portfolio 2024",
-    name: "Portfolio 2024",
+    content: "My Portfolio 2023",
+    name: "Portfolio 2023",
     title: "React - Gsap - lenis - Tailwind",
-    link: "https://lucianogiuliani2024.netlify.app/",
+    link: "https://lucianogiuliani.netlify.app/",
     img: portfolio2024,
-    contentSpanish: "Mi portfolio 2024",
+    contentSpanish: "Mi portfolio 2023",
   },
 ];
 

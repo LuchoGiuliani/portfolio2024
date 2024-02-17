@@ -42,6 +42,7 @@ const Hero = () => {
       x: mousePosition.x - 45,
       y: mousePosition.y - 45,
       mixBlendMode: "multiply",
+     
     },
   };
   const textEnter = () => setCursorVariant("text");
