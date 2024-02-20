@@ -84,7 +84,7 @@ export const projects = [
   {
     id: "Project-4",
     content: "This is a new project using reactQuery Reduce and Typescript",
-    name: "Practica DH",
+    name: "Practica Digital House",
     title: "React -  Vite Js -  reactQuery -  Typescript",
     img: hero,
     link: "https://practica-dh-mod1.netlify.app/",
