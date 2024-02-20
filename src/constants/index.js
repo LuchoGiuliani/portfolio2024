@@ -134,7 +134,7 @@ export const projects = [
     content: "Using fetching and filtering API ",
     name: "SkinPlace",
     title: "Js - Vite - GithubPages",
-    link: "https://luchogiuliani.github.io/skinPlace/",
+    link: "https://github.com/LuchoGiuliani/skinPlace",
     img: skinPlace,
     contentSpanish:
       "Usando fetching y filtrando una APi, subiendo informacion a GithubPages",
