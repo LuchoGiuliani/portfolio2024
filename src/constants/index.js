@@ -195,50 +195,62 @@ export const skills = [
   {
     id: "1",
     logo: mysql,
+    name:"mySQL"
   },
   {
     id: "2",
     logo: css,
+    name:"CSS"
   },
   {
     id: "3",
     logo: git,
+    name:"Git"
   },
   {
     id: "4",
     logo: node,
+    name:"Node"
   },
   {
     id: "5",
     logo: js,
+    name:"JavaScript"
   },
   {
     id: "6",
     logo: css2,
+    name:"GSAP"
   },
 
   {
     id: "8",
     logo: react,
+    name:"React"
   },
   {
     id: "9",
     logo: tailwind,
+    name:"Tailwind"
   },
   {
     id: "10",
     logo: docker,
+    name:"Docker"
   },
   {
     id: "11",
     logo: typescript,
+    name:"Typescript"
   },
   {
     id: "12",
     logo: nextjs,
+    name:"NextJS"
   },
   {
     id: "13",
     logo: figma,
+    name:"Figma"
   },
 ];

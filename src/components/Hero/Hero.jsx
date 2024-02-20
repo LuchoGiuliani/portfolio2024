@@ -84,10 +84,10 @@ const Hero = () => {
         </h1>
       </motion.div>
       <div className="">
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute left-0 bottom-50 sm:bottom-0 p-2 mt-12 sm:mt-0">
+        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute left-4 bottom-50 sm:bottom-0 p-2 mt-12 sm:mt-0">
           WEB <br /> DEVELOPER
         </h1>
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute right-[10px] sm:right-0 bottom-46 sm:bottom-0 p-2 mt-14 sm:mt-0">
+        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute right-[16px] sm:right-4 bottom-46 sm:bottom-0 p-2 mt-14 sm:mt-0">
           DESIGNER
         </h1>
       </div>
@@ -96,7 +96,7 @@ const Hero = () => {
         <img
           src={perfil}
           alt="perfil"
-          className="object-cover h-[380px] w-[380px] lg:h-[580px] lg:w-[580px] hero_image absolute bottom-32"
+          className="object-cover h-[380px] w-[380px] lg:h-[580px] lg:w-[580px] hero_image absolute bottom-32 "
         />
       </div>
     </section>

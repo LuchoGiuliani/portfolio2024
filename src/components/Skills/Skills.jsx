@@ -36,6 +36,7 @@ const Skills = () => {
                   alt="skill logo"
                   className="w-20 object-contain img_skills"
                 />
+                {/* <h2 className="text-transparent text-center mt-2 hover:text-white">{skill.name}</h2> */}
               </div>
             ))}
           </div>
