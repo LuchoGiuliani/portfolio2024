@@ -4,13 +4,12 @@ import {socialMedia} from '../../constants'
 
 import styles from "./footer.module.css"
 const Footer = () => (
-  <section className= "flex-col mb-4">
+  <section className= "flex-col mb-4 mt-6">
     <div className={` md:flex-row flex-col mb-8 w-full`}>
-      <div className='flex-1 flex  justify-start '>
+      <div className='flex-1 flex  item-center justify-center '>
         <a className='z-[9999]' href="#">
-        <img src={logo} alt="logo" className='w-[266px] h-[72px] object-contain' />
+        <img src={logo} alt="logo" className='w-[266px] h-[72px] object-contain mt-6 ' />
         </a>
-        <p className={` mt-4 max-w-[310px]`}></p>
       </div>
     </div>
 
