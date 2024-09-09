@@ -3,9 +3,10 @@ import logo from "./logo.png";
 import skinPlace from "./skinplace.png";
 import close from "./add.png"
 import menu from "./menu.svg";
+import dmh from "./logo1.svg"
 
 import arrowDown from "./arrow-down.png";
-
+import babyshop from "./babyshop.png"
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 
@@ -50,12 +51,14 @@ export {
   figma,
   nextjs,
   mask,
+  babyshop,
   close,
   portfolio2024,
   starwars,
   twitter,
   github,
   dialogEN,
+  dmh,
   dialogES,
   arrowDown,
   skinPlace,

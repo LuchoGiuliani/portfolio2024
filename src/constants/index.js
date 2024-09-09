@@ -6,6 +6,7 @@ import {
   node,
   css,
   git,
+  dmh,
   tailwind,
   instagram,
   linkedin,
@@ -14,6 +15,7 @@ import {
   cachi,
   reyes,
   records,
+  babyshop,
   comidas,
   sanitarios,
   js,
@@ -62,6 +64,17 @@ export const projects = [
   {
     id: "Project-2",
     content:
+      "Welcome to BabyShop, your online store specializing in baby clothing. We offer a wide variety of high-quality, comfortable, and stylish garments for your little ones.",
+    name: "Baby Shop",
+    title: "React - Canvas - Deployment - TailwindCSS - Sequalize",
+    img: babyshop,
+    link: "https://primeros-pasos-seven.vercel.app/",
+    contentSpanish:
+      "Bienvenidos a BabyShop, tu tienda en línea especializada en ropa para bebés. Ofrecemos una amplia variedad de prendas de alta calidad, cómodas y a la moda para los más pequeños de la casa.",
+  },
+  {
+    id: "Project-3",
+    content:
       "A music production company focused on achieving the growth of artists. This place has a studio equipped with the latest in technology. Don't hesitate to visit.",
     name: "Vito Records",
     title: "React - Canvas - Deployment - TailwindCSS",
@@ -71,7 +84,7 @@ export const projects = [
       "Productora musical. Equipada con lo último en tecnología, acompañando al artista a encontrar su camino musical",
   },
   {
-    id: "Project-3",
+    id: "Project-4",
     content:
       "I have the privilege of working with my sister on her own Portfolio.",
     name: "Cachi Audiovisual",
@@ -82,7 +95,7 @@ export const projects = [
       "Diseño audiovisual, creación de un porfolio para un cliente especial",
   },
   {
-    id: "Project-4",
+    id: "Project-5",
     content: "This is a new project using reactQuery Reduce and Typescript",
     name: "Practica Digital House",
     title: "React -  Vite Js -  reactQuery -  Typescript",
@@ -92,6 +105,15 @@ export const projects = [
   },
   {
     id: "Project-5",
+    content: "This is a project built alone, I create an example of a virtual  Wallet.",
+    name: "Digital Money House",
+    title: "React -  Vercel -  ReactHookForm -  TailwindCSS",
+    img: dmh,
+    link: "https://digital-money-house-lucianogiuliani.vercel.app/",
+    contentSpanish: "Proyecto integrador de Digital House, creamos una billetera virtual.",
+  },
+  {
+    id: "Project-6",
     content:
       "My first project, built together with a group of colleagues from the Digital House course. A beautiful experience not only on a technical/individual level but also in terms of working as a team.",
     name: "Sanitarios Nicuesa",
@@ -102,7 +124,7 @@ export const projects = [
       "Primer trabajo grupal hecho con compañeros del instituto. Una experiencia muy gratificante haber trabajado en grupo y aprender a coordinar en equipo",
   },
   {
-    id: "project-6",
+    id: "project-7",
     content:
       "Home-cooked meals made with love for the past 25 years, offering a different menu every day. ",
     name: "cHolu",
@@ -112,7 +134,7 @@ export const projects = [
     contentSpanish: "Aplicación para administrar restaurant",
   },
   {
-    id: "project-7",
+    id: "project-8",
     content: "This project has been oriented to be a real state market ",
     name: "Inmo TakaWashi",
     title: "React - Vite Js - Deployment - TailwindCSS",

@@ -55,14 +55,16 @@ const Hero = () => {
         start: "top 250",
         end: "bottom top",
         scrub: true,
+        
       },
+    
       yPercent: 150,
     });
   }, []);
 
   return (
     <section
-      className="hero_section flex flex-col px-6 pt-6 h-screen "
+      className="hero_section flex flex-col md:px-6 md:pt-6 h-screen "
       onMouseEnter={textEnter}
       onMouseLeave={textLeave}
     >
@@ -78,16 +80,16 @@ const Hero = () => {
       >
         <h1
           id="title_h1"
-          className={`${styles.title_name} text-white font-thin font-sans tracking-tight text-6xl md:text-6xl lg:text-8xl text-center  `}
+          className={`${styles.title_name} text-white font-thin  tracking-tight text-6xl md:text-6xl lg:text-8xl text-center  `}
         >
           LUCIANO GIULIANI
         </h1>
       </motion.div>
       <div className="">
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute left-4 bottom-50 sm:bottom-0 p-2 mt-12 sm:mt-0">
+        <h1 className="text-white font-thin  tracking-tight text-2xl lg:text-6xl absolute left-4 bottom-50 sm:bottom-0 p-2 mt-12 sm:mt-0">
           WEB <br /> DEVELOPER
         </h1>
-        <h1 className="text-white font-thin font-sans tracking-tight text-2xl lg:text-6xl absolute right-[16px] sm:right-4 bottom-46 sm:bottom-0 p-2 mt-14 sm:mt-0">
+        <h1 className="text-white font-thin  tracking-tight text-2xl lg:text-6xl absolute right-[16px] sm:right-4 bottom-46 sm:bottom-0 p-2 mt-14 sm:mt-0">
           DESIGNER
         </h1>
       </div>
